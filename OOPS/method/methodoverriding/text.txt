@@ -1,0 +1,14 @@
+Method Overriding
+-------------------------
+
+1. The process of Inheriting the method and changing the implementation/Definition of the inherited method is called as method overriding.
+
+2. In order to achieve method overriding, we have to follow the below rules:
+    i. Method Name must be same.
+    ii. Arguments should be same
+    iii. returntype should also be same.
+
+Note:
+1. Access Specifier should be same or of Higher Visibility.
+2. While Overriding a method we can optionally use annotation ie. @Override
+3. annotation was introduced from JDK 1.5

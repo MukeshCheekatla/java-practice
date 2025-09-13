@@ -1,0 +1,38 @@
+
+
+
+blocks
+-------
+1. Blocks are a set of Instructions/Block of code for initialization.
+2. Blocks are genereally categorized 
+        a. static block
+        b. non-static 
+        
+ ====================================================================
+
+static block
+------------
+1. static blocks are a set of instructions ussed to initializing static variables.
+
+syntax: static
+            {
+
+            }
+
+2. static blocks always gets executed even before main()  or during class loading time.
+
+3. we can have multiple static blocks and the execution will happen in a sequential Manner.
+
+
+non- static block
+-----------------
+1. Non-static blocks are a set of instructions ussed to initializing static variables and non-static variables.
+
+syntax: static
+            {
+
+            }
+
+2. Non-static blocks always gets executed during object creation(Instantiation).
+
+3. we can have multiple Non-static blocks and the execution will happen in a sequential Manner.

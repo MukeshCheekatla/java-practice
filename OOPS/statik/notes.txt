@@ -1,0 +1,25 @@
+
+
+
+static
+----------
+1. static is a keyword which can be used with class, variable, method and blocks.
+
+2. The Class loader loads all the static properties inside a memory location called as Class Area or Static Pool.
+
+3. All the static properties has to accessed with hwlp of ClassName.
+
+4. static properties can be accessed directly or with the help of classname in the same class.
+
+5. static properties can be accessed only with the help of ClassName in the different /another class.
+
+syntax : ClassName.variable Name or ClassName.methodname()
+
+Note:
+1. STATIC PROPERTIES ARE LOADED ONLY ONCE, therefore they will have a single copy.
+
+2.all objects will implicity be pointing to the static poll,
+ therefore we can access static properties with object reference but not a good practice
+
+
+

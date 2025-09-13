@@ -1,0 +1,37 @@
+
+JDK
+- Java Development Kit
+- JDK is a software which contains all the resources 
+  in order to develop and execute java programs.
+
+  JRE
+  - java runtime environment
+  - JRE is a software which provides a platform for executing java programs.
+
+    JIT compiler
+    - Just in time compiler
+    - JIT compiler compiles/converts java program(High Level) into machine understandable language
+
+    Class Loader
+    - Loads the class from secondary storage to executable area.
+
+    Interpreter
+    - Interprets the code line by line.
+
+    JVM
+    - Java Virtual Machine.
+    - JVM is the Manager of the JRE.
+
+      JVM Architecture
+      ----------------
+
+      1. Heap Area - objects get created here.
+
+      2. Class Area or static Poll - All the static members gets stored here.
+
+      3. Stack - Execution happens inside stack.
+
+      4. Method Area - Implementation of methods is stored here.
+      
+      5. Native Area
+   

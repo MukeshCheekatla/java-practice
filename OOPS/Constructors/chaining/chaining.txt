@@ -1,0 +1,33 @@
+CONSTRUCTOR CHAINING
+--------------------
+1. The Process of one constructor calling another constructor is called as constructor chaining.
+
+2. Constructor Chaining can be achieved only in case of constructor overloading.
+
+3. Constructor Chaining can happen in two ways:
+
+a. Constructor Chaining in same class can be achieved using this calling statement ie. this().
+b. Constructor Chaining in another class can be achieved using super calling statement ie. super() & Is-a relationship.
+
+Note :
+1. this() or super() should always be the first executable line within the constructor.
+2. Recursive Chaining is not possible, Therefore if there are 'n' constructors we can have a maximum of 'n-1' calling statements.
+
+1. super() is used to invoke or call constructor of another class.
+    a. IS-A (Inheritance) --> extends
+    b. super() ie. super calling statement.
+
+super() can be used in 2 ways:
+
+i.IMPLICITLY:
+-----------
+When we create an object of a class, and if that class has a super class,
+and if that super class has a non-parameterized constructor,
+then the sub class constructor will invoke the super class constructor implicitly.
+
+ii.EXPLICITLY:
+-----------
+When we create an object of a class, and if that class has a super class,
+and if that super class has a parameterized constructor,
+then the sub class constructor should invoke the super class constructor explicitly,
+otherwise we get compile time error.

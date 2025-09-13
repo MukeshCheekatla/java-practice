@@ -1,0 +1,42 @@
+
+
+Constructor
+-----------
+
+1. Constructoris a set of instructions used for initialization(Assigning) and
+    Instantiation (object creation).
+2. Constructor Name and Class Name should always be same.
+3. Constructors will not have return type.
+4. Constructors will get executed at the time of object creation.
+
+syntax: AccessSpecifier Classname(optional arguments)
+        {
+            //set of instructions
+        }
+
+5. constructors are categorized into 2 types:
+    a. deafult Constructor
+    b. Custom/User-Defined Constructor
+
+=============================================================================
+
+Default Constructor
+-------------------
+1. If a constructor is not explicity present in a class, then the compiler will automatically generate a constructor 
+    and those constructors are called as Default Constructor.
+
+2. Default constructor neither accepts any arguments nor has any implementation.
+
+custom/User=Defined Constructor
+-------------------------------
+
+1. If a constructor is explicity Defined inside a class  by the user or the programmer,
+    then we refer it as custom/ user9defined constructor.
+
+2. They are further categorized into 2 types:
+    i. Non Parameterized Custom Constructor
+    ii. Parameterized Custom Constructor
+
+
+-----------------------------------------------------------------------------------------------------
+NOTE:  when there is default constructor, then custom constructor cannot be present and vice versa.

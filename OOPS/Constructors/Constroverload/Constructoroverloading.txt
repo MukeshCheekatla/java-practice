@@ -1,0 +1,8 @@
+Constructor Overloading
+------------------------
+1. The process of having multiple constructors in the same class with differences in arguments.
+
+2. To achieve Constructor Overloading, at least one of the following rules must be followed:
+   a. Change in the number of arguments (length).
+   b. Change in the datatype of the arguments.
+   c. Change in the sequence/order of argument datatypes.
